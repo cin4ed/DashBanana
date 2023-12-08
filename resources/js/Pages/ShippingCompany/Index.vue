@@ -29,7 +29,7 @@
             },
             confirmElimination () {
                 this.popUpDelete = false
-                router.delete(`/categories/${this.selectedId}`)
+                router.delete(`/shipping-companies/${this.selectedId}`)
             }
         }
     }
