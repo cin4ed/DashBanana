@@ -1,0 +1,102 @@
+[
+  {
+    "code": "1111222233334444",
+    "discount": 0.06,
+    "is_active": true,
+    "start_date": "2023-01-01",
+    "end_date": "2023-12-31",
+    "uses": 78,
+    "max_uses": 100,
+    "description": "6% off for 2023"
+  },
+  {
+    "code": "1111222233334445",
+    "discount": 0.05,
+    "is_active": true,
+    "start_date": "2022-01-01",
+    "end_date": "2022-12-31",
+    "uses": 49,
+    "max_uses": 100,
+    "description": "5% off for 2022"
+  },
+  {
+    "code": "1111222233334446",
+    "discount": 0.04,
+    "is_active": true,
+    "start_date": "2021-01-01",
+    "end_date": "2021-12-31",
+    "uses": 34,
+    "max_uses": 100,
+    "description": "4% off for 2021"
+  },
+  {
+    "code": "1111222233334447",
+    "discount": 0.03,
+    "is_active": true,
+    "start_date": "2020-01-01",
+    "end_date": "2020-12-31",
+    "uses": 89,
+    "max_uses": 100,
+    "description": "3% off for 2020"
+  },
+  {
+    "code": "1111222233334448",
+    "discount": 0.02,
+    "is_active": true,
+    "start_date": "2019-01-01",
+    "end_date": "2019-12-31",
+    "uses": 12,
+    "max_uses": 100,
+    "description": "2% off for 2019"
+  },
+  {
+    "code": "1111222233334449",
+    "discount": 0.01,
+    "is_active": true,
+    "start_date": "2018-01-01",
+    "end_date": "2018-12-31",
+    "uses": 0,
+    "max_uses": 100,
+    "description": "1% off for 2018"
+  },
+  {
+    "code": "1111222233334450",
+    "discount": 0.07,
+    "is_active": true,
+    "start_date": "2024-01-01",
+    "end_date": "2024-12-31",
+    "uses": 15,
+    "max_uses": 100,
+    "description": "7% off for 2024"
+  },
+  {
+    "code": "1111222233334451",
+    "discount": 0.08,
+    "is_active": true,
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "uses": 51,
+    "max_uses": 100,
+    "description": "8% off for 2025"
+  },
+  {
+    "code": "1111222233334452",
+    "discount": 0.09,
+    "is_active": true,
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "uses": 66,
+    "max_uses": 100,
+    "description": "9% off for 2026"
+  },
+  {
+    "code": "1111222233334453",
+    "discount": 0.10,
+    "is_active": true,
+    "start_date": "2027-01-01",
+    "end_date": "2027-12-31",
+    "uses": 12,
+    "max_uses": 100,
+    "description": "10% off for 2027"
+  }
+]
