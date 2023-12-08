@@ -1,5 +1,5 @@
 <script>
-    import DefaultTemplate from "@/layouts/DefaultTemplate.vue";
+    import DefaultTemplate from '@/Layouts/DefaultTemplate.vue'
 import UIAvatarSvg from 'ui-avatar-svg'
 
 const avatar = new UIAvatarSvg()
