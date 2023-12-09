@@ -62,8 +62,8 @@
                         {{ new Date(category.created_at).toISOString().slice(0, 10) }}
                     </div>
                     <div>
-                        <div v-if="category.create_author">By: {{ category.create_author.name }}</div>
-                        <div v-else>By: Unknown author</div>
+                        <div v-if="category.create_author" class="dark:text-white">By: {{ category.create_author.name }}</div>
+                        <div v-else class="dark:text-white">By: Unknown author</div>
                     </div>
                 </div>
                 <div class="bg-slate-50 dark:bg-slate-900 rounded p-4">
@@ -74,8 +74,8 @@
                         {{ new Date(category.updated_at).toISOString().slice(0, 10) }}
                     </div>
                     <div>
-                        <div v-if="category.update_author">By: {{ category.update_author.name }}</div>
-                        <div v-else>By: Unknown author</div>
+                        <div v-if="category.update_author" class="dark:text-white">By: {{ category.update_author.name }}</div>
+                        <div v-else class="dark:text-white">By: Unknown author</div>
                     </div>
                 </div>
             </div>

@@ -65,7 +65,7 @@
           </div>
           <div class="ml-auto max-w-[124px]">
             <div v-if="shipping_company.create_author">By: {{ shipping_company.create_author.name}}</div>
-            <div v-else>By: Unknown</div>
+            <div v-else class="dark:text-white">By: Unknown</div>
           </div>
         </div>
 
@@ -95,7 +95,7 @@
           <div class="text-lg font-medium text-slate-900 dark:text-white" v-if="shipping_company.email">
             {{ shipping_company.email  }}
           </div>
-          <div class="text-lg font-medium text-slate-900 dark:text-white" v-else>
+          <div class="text-lg font-medium text-slate-900 dark:text-white" v-else >
             Undefined
           </div>
         </div>
@@ -107,8 +107,8 @@
           <div class="text-lg font-medium text-slate-900 dark:text-white">
             {{ new Date(shipping_company.updated_at).toISOString().slice(0, 10) }}
           </div>
-            <div v-if="shipping_company.update_author">By: {{ shipping_company.update_author.name }}</div>
-            <div v-else>By: Unknown author</div>
+            <div v-if="shipping_company.update_author" class="dark:text-white">By: {{ shipping_company.update_author.name }}</div>
+            <div v-else class="dark:text-white">By: Unknown author</div>
         </div>
 
         <div>

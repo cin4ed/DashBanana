@@ -30,6 +30,8 @@
         "vue": "^3.2.41"
     },
     "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "jquery": "^3.7.1",
         "ui-avatar-svg": "^1.0.0"
     }
 }

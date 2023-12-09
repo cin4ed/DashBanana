@@ -48,14 +48,6 @@
             </Link>
           </li>
           <li>
-            <Link href="/inventory" class="navItem">
-              <span class="flex items-center">
-                <Icon class=" nav-icon" icon="material-symbols:inventory-2"/>
-                <span>Inventory</span>
-              </span>
-            </Link>
-          </li>
-          <li>
             <Link href="/orders" class="navItem">
               <span class="flex items-center">
                 <Icon class=" nav-icon" icon="material-symbols:sticky-note-2"/>

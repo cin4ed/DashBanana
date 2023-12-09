@@ -168,7 +168,7 @@
                                                         </Link>
                                                         </li>
                                                         <li>
-                                                        <Link :href="'/categories/' + company.id + '/edit'"
+                                                        <Link :href="'/shipping-companies/' + company.id + '/edit'"
                                                             class="flex w-full cursor-pointer items-center space-x-2 border-b border-b-gray-500 border-opacity-10 px-4 py-2 text-sm capitalize first:rounded-t last:mb-0 last:rounded-b hover:bg-slate-900 hover:text-white rtl:space-x-reverse dark:text-slate-300 dark:hover:bg-slate-600 dark:hover:bg-opacity-70">
                                                             <Icon icon="clarity:note-edit-line"/>
                                                             <span>Edit</span>

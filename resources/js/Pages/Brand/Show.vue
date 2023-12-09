@@ -64,8 +64,8 @@ export default {
             {{ new Date(brand.created_at).toISOString().slice(0, 10)  }}
           </div>
           <div class="ml-auto max-w-[124px]">
-            <div v-if="brand.create_author">By: {{ brand.create_author.name}}</div>
-            <div v-else>By: Unknown</div>
+            <div v-if="brand.create_author" class="dark:text-white">By: {{ brand.create_author.name}}</div>
+            <div v-else class="dark:text-white">By: Unknown</div>
           </div>
         </div>
 
@@ -76,8 +76,8 @@ export default {
           <div class="text-lg font-medium text-slate-900 dark:text-white">
             {{ new Date(brand.updated_at).toISOString().slice(0, 10) }}
           </div>
-            <div v-if="brand.create_author">By: {{ brand.create_author.name }}</div>
-            <div v-else>By: Unknown author</div>
+            <div v-if="brand.create_author" class="dark:text-white">By: {{ brand.create_author.name }}</div>
+            <div v-else class="dark:text-white">By: Unknown author</div>
         </div>
 
         <div class="rounded bg-slate-50 p-4 dark:bg-slate-900">
@@ -89,30 +89,6 @@ export default {
           </div>
           <div class="text-lg font-medium text-slate-900 dark:text-white" v-else>
             No website
-          </div>
-        </div>
-
-        <div class="rounded bg-slate-50 p-4 dark:bg-slate-900">
-          <div class="mb-1 text-sm font-medium text-slate-600 dark:text-slate-400">
-            Phone
-          </div>
-          <div class="text-lg font-medium text-slate-900 dark:text-white" v-if="brand.phone_number">
-            {{ brand.phone_number }}
-          </div>
-          <div class="text-lg font-medium text-slate-900 dark:text-white" v-else>
-            No email
-          </div>
-        </div>
-
-        <div class="rounded bg-slate-50 p-4 dark:bg-slate-900">
-          <div class="mb-1 text-sm font-medium text-slate-600 dark:text-slate-400">
-            Email
-          </div>
-          <div class="text-lg font-medium text-slate-900 dark:text-white" v-if="brand.email">
-            {{ brand.email }}
-          </div>
-          <div class="text-lg font-medium text-slate-900 dark:text-white" v-else>
-            No email
           </div>
         </div>
 
